@@ -184,8 +184,8 @@ a:visited {
 /* Footer */
 
 #footer {
-	height: 90px;
-	padding-top: 30px;
+	height: 50px;
+	padding-top: 10px;
 	margin: 0 auto;
 	text-align: center;
 	background: url(images/footer.gif) repeat-x;

@@ -184,77 +184,7 @@ $$
 <br></br>
 
 </div>
-<div class="post">
-<h2 class="title"><span>Лабораторная работа №3. Найти определенный интеграл.</span></h2>
-<p>Пример:</p>
-<br></br>
 
-<div lang="latex">
-$$
-\large 
-\color{Gray}
-\int\limits_0^1 x^2\ln(1+x)dx
-$$
-</div>
-<br></br>
-
-<p>Решение:</p>
-<br></br>
-
-<div lang="latex">
-$$
-\large 
-\color{Gray}
-\int\limits_0^1 x^2\ln(1+x)dx = \int\limits_0^1 \ln(1+x)d\bigg(\frac{1}{3}x^3\bigg)=\\= - \int\limits_0^1 \frac{1}{3}x^3 d(\ln(1+x)) + \frac{1}{3}x^3 \ln(1+x)\bigg|_0^1 = \\ =
--\int\limits_0^1 \frac{1}{3}\frac{x^3}{1+x}dx + \frac{1}{3}x^3 \ln(1+x)\bigg|_0^1 =\\= -\int\limits_0^1 \frac{1}{3}\frac{x^3}{1+x}dx  + \frac{1}{3}\ln(2)= \\ = 
--\int\limits_0^1\bigg(\frac{1}{3}-\frac{1}{3}\frac{1}{1+x} + \frac{1}{3}x^2-\frac{1}{3}x\bigg)dx + \frac{1}{3}\ln(2)= \\ =\frac{1}{3}\ln(2) -\int\limits_0^1 \bigg(\frac{1}{3}+\frac{1}{3}x^2-\frac{1}{3}x\bigg)dx - \int\limits_0^1\bigg(-\frac{1}{3}\frac{1}{1+x}\bigg)dx
-$$
-</div>
-<br></br>
-
-<p>Вычислим каждый интеграл суммы</p>
-<br></br>
-
-<div lang="latex">
-$$
- \large 
-\color{Gray}
-\int\limits_0^1\bigg(-\frac{1}{3}\frac{1}{1+x}\bigg)dx =
-\int\limits_0^1\bigg(-\frac{1}{3}\frac{1}{1+x}\bigg)d(1+x) =\\=
--\frac{1}{3}\int\limits_0^1\frac{1}{1+x}d(1+x) = \bigg(-\frac{1}{3}\ln(|1+x|)\bigg) = -\frac{1}{3}\ln(2) \\
-
-\int\limits_0^1\bigg(\frac{1}{3}+\frac{1}{3}x^2-\frac{1}{3}x\bigg)dx =
-\bigg(-\frac{1}{6}x^2\bigg)\bigg|_0^1 + \frac{1}{9}x^3\bigg|_0^1 + \frac{1}{3}x\bigg|_0^1 = \frac{5}{18}
-$$
-</div>
-<br></br>
-
-<p>Таким образом, сумма интегралов равна:</p>
-<br></br>
-
-<div lang="latex">
-$$
- \large 
-\color{Gray}
-\frac{1}{3}\ln(2) -\int\limits_0^1 \bigg(\frac{1}{3}+\frac{1}{3}x^2-\frac{1}{3}x\bigg)dx - 
-\int\limits_0^1\bigg(-\frac{1}{3}\frac{1}{1+x}\bigg)dx =\\=  -\frac{5}{18}+\frac{1}{3}\ln(2)
-$$
-</div>
-<br></br>
-
-<p>Ответ:</p>
-<br></br>
-
-<div lang="latex">
-$$
- \large 
-\color{Gray}
-\int\limits_0^1 x^2\ln(1+x)dx = -\frac{5}{18}+\frac{1}{3}\ln(2)
-$$
-</div>
-<br></br>
-
-</div>
 <div class="post">
 <h2 class="title"><span></span></h2>
 </div>
